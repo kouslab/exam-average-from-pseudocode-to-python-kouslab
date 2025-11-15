@@ -15,6 +15,7 @@ function average to calculate average of num1 and num2 and num3:
     Display second number:
     Display third number:
     Calculate the sum of num1 and num2 and num3 and then divide by 3
+    Display the result
     
 Call the function average to display the result.
 
@@ -50,10 +51,16 @@ def main():
     print(f"Third score: {num3}")
 
     #Display the result for the average of the three exam score and round to 2 decimal places
-    print(f"The average score is: {result:.2f}")
+    print(f"The average score is: {result}")
 
 #Call the main function to execute the program
 main()
+
+'''
+future improvement:
+    - we should use the exception to handle the ValueError whether the negative number or float number.
+    - we should round the result to 2 decimal places.     
+'''
 
 
 
