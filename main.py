@@ -20,9 +20,41 @@ Call the function average to display the result.
 
 """
 
-# Your Python code begins below this line.
-# Every line you write must have a comment directly above it.
+#This program calculate the average of three exam scores
 
-# Call your function when your program is ready
-calculate_average()   
+#Define the function to calculate the average of the three exam scores.
+def calculate_average(num1, num2, num3):
+    return (num1 + num2 + num3)/3
+
+#Define the main function
+def main():
+    #Ask the user to enter the first score
+    num1 = int(input("Enter first score: "))
+
+    #Ask the user to enter the second score
+    num2 = int(input("Enter second score: "))
+
+    #Ask the user to enter the third score
+    num3 = int(input("Enter third score: "))
+
+    #Call the calculate_average function and assign the result to a variable named "result"
+    result = calculate_average(num1, num2, num3)
+
+    #Display the first score
+    print(f"First score: {num1}")
+
+    #Display the second score
+    print(f"Second score: {num2}")
+
+    #Display the third score
+    print(f"Third score: {num3}")
+
+    #Display the result for the average of the three exam score and round to 2 decimal places
+    print(f"The average score is: {result:.2f}")
+
+#Call the main function to execute the program
+main()
+
+
+
   
