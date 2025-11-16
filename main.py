@@ -2,10 +2,10 @@
 Kou Yang
 IS-250
 Calculate Average of Three Scores
-11/15/2025
+Due Date: 11/17/2025
 """
 """
-    
+    Pseudocode: 
 Ask user to enter first number as num1:
 Ask user to enter second number as num2:
 Ask user to enter third number as num3:
