@@ -1,7 +1,7 @@
 """
 Kou Yang
 IS-250-01
-Calculate Average of Three exam Scores
+Pycharm and Github
 Submission date: 11/16/2025
 """
 """
